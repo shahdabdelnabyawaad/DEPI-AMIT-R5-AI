@@ -115,7 +115,7 @@ ipython_config.py
 # pdm.lock
 # pdm.toml
 .pdm-python
-.pdm-build/
+.pdm-build/+
 
 # pixi
 #   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
@@ -130,7 +130,8 @@ __pypackages__/
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid
-
+Data
+.vscode 
 # Redis
 *.rdb
 *.aof
@@ -156,7 +157,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-Data 
+ Data
 # Spyder project settings
 .spyderproject
 .spyproject
